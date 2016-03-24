@@ -7,11 +7,57 @@ body {
   box-shadow: 0 0 10px #cecece; }
 
 .sidebar {
-  background-color: #666666; }
+  display: block; }
+  .sidebar .side-navigation {
+    background-color: #666666;
+    position: absolute;
+    height: 100%;
+    overflow: hidden;
+    z-index: 4;
+    position: relative; }
 
-.container .row div {
-  background: grey;
-  border: 1px solid black; }
+.container-wrapper {
+  width: 100%; }
+  .container-wrapper .row {
+    padding: 0; }
+    .container-wrapper .row div {
+      background: grey;
+      border: 1px solid black; }
+    .container-wrapper .row .col-md-4 {
+      list-style: none; }
+
+.container-fluid {
+  width: 100%; }
+
+.sidebar {
+  width: 60px;
+  overflow: visible;
+  -webkit-transition: width 2s, height 4s;
+  /* Safari */
+  transition: width 2s, height 4s; }
+  .sidebar .navigation-list {
+    padding: 0; }
+    .sidebar .navigation-list li {
+      margin: 20px;
+      list-style: none; }
+    .sidebar .navigation-list a {
+      color: #fff;
+      display: block;
+      overflow: hidden; }
+      .sidebar .navigation-list a:before {
+        content: "o";
+        float: left; }
+      .sidebar .navigation-list a .nav-text {
+        display: block;
+        height: 30px;
+        background: green;
+        width: 0;
+        overflow: hidden;
+        margin-left: 30px; }
+  .sidebar:hover .navigation-list a {
+    width: 210px; }
+    .sidebar:hover .navigation-list a .nav-text {
+      width: 210px; }
 
 @media (min-width: 768px) {
   .header-wrapper {
@@ -29,11 +75,17 @@ body {
     height: 100%; }
 
   .sidebar,
-  .container {
+  .container-wrapper {
     display: table-cell;
     height: 100%; }
 
+  .container-wrapper {
+    width: 100%;
+    padding: 20px; }
+
   .sidebar {
-    min-width: 250px; } }
+    overflow: hidden;
+    max-width: 250px;
+    display: block; } }
 
 /*# sourceMappingURL=style.css.map */
