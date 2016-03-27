@@ -125,6 +125,7 @@ body {
 
 .sidebar {
 	display: block;
+	vertical-align: top;
 
 	.side-navigation {
 		-webkit-transition: all .7s; /* Safari */
@@ -192,6 +193,7 @@ body {
 
 .container-wrapper {
 	background-color: $content-bg-color;
+	vertical-align: top;
 	width: 100%;
 
 	.row {
@@ -225,6 +227,8 @@ body {
 		.product-image {
 			max-width: 100%;
 			vertical-align: top;
+			width: auto;
+			height: auto;
 		}
 	}
 

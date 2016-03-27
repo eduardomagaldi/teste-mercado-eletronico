@@ -74,7 +74,8 @@ body {
         float: right; }
 
 .sidebar {
-  display: block; }
+  display: block;
+  vertical-align: top; }
   .sidebar .side-navigation {
     -webkit-transition: all .7s;
     /* Safari */
@@ -123,6 +124,7 @@ body {
 
 .container-wrapper {
   background-color: #eeeeee;
+  vertical-align: top;
   width: 100%; }
   .container-wrapper .row {
     padding: 0; }
@@ -145,7 +147,9 @@ body {
     text-align: center; }
     .container-wrapper .product-image-wrapper .product-image {
       max-width: 100%;
-      vertical-align: top; }
+      vertical-align: top;
+      width: auto;
+      height: auto; }
   .container-wrapper .product-description {
     color: #686868;
     font-size: 12px;
