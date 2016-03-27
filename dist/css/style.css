@@ -147,6 +147,11 @@ body {
     box-shadow: 0 0 10px #cecece;
     margin-bottom: 20px;
     text-align: center; }
+    .container-wrapper .product-image-wrapper .product-image {
+      vertical-align: top;
+      width: auto;
+      height: auto;
+      max-width: 90%; }
   .container-wrapper .product-description {
     color: #686868;
     font-size: 12px;
