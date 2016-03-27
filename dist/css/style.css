@@ -143,8 +143,6 @@ body {
     box-shadow: 0 0 10px #cecece;
     margin-bottom: 20px;
     text-align: center; }
-    .container-wrapper .product-image-wrapper .product-image {
-      max-width: 100%; }
   .container-wrapper .product-description {
     color: #686868;
     font-size: 12px;
