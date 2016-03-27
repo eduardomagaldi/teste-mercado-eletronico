@@ -221,6 +221,11 @@ body {
 		box-shadow: 0 0 10px $shadow-color;
 		margin-bottom: 20px;
 		text-align: center;
+
+		.product-image {
+			max-width: 100%;
+			vertical-align: top;
+		}
 	}
 
 	.product-description {
