@@ -145,12 +145,8 @@ body {
     margin: 10px 0 20px; }
   .container-wrapper .product-image-wrapper {
     box-shadow: 0 0 10px #cecece;
-    margin-bottom: 20px; }
-    .container-wrapper .product-image-wrapper .product-image {
-      vertical-align: top;
-      width: auto;
-      height: auto;
-      max-width: 100%; }
+    margin-bottom: 20px;
+    text-align: center; }
   .container-wrapper .product-description {
     color: #686868;
     font-size: 12px;
