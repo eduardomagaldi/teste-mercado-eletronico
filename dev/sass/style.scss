@@ -126,6 +126,8 @@ body {
 .sidebar {
 	display: block;
 	vertical-align: top;
+	position: relative;
+	z-index: 20;
 
 	.side-navigation {
 		-webkit-transition: all .7s; /* Safari */
@@ -225,7 +227,6 @@ body {
 		text-align: center;
 
 		.product-image {
-			max-width: 100%;
 			vertical-align: top;
 			width: auto;
 			height: auto;
